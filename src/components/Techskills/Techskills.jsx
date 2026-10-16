@@ -12,7 +12,7 @@ import {
   TbBrandGithubFilled,
 } from 'react-icons/tb';
 import { FaNode } from 'react-icons/fa';
-import { SiSass, SiStyledcomponents, SiFigma, SiSwagger, SiMongodb, SiPostman } from 'react-icons/si';
+import { SiSass, SiStyledcomponents, SiFigma, SiSwagger, SiMongodb, SiPostman, SiCsharp } from 'react-icons/si';
 import { BsFiletypeScss } from 'react-icons/bs';
 import {  DiResponsive, DiGit } from 'react-icons/di';
 
