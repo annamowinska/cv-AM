@@ -17,6 +17,7 @@ import { BsFiletypeScss } from 'react-icons/bs';
 import {  DiResponsive, DiGit } from 'react-icons/di';
 
 const iconComponents = {
+  SiCsharp: SiCsharp,
   TbBrandJavascript: TbBrandJavascript,
   TbBrandReact: TbBrandReact,
   TbBrandHtml5: TbBrandHtml5,
