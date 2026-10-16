@@ -53,13 +53,13 @@ export const About = () => {
         <div className={css.header}>
           <h1 className={css.title}>Anna <span className={css.surname}>Mówińska</span></h1>
           <div className={css['profession-box']}>
-            <h3 className={css.profession}>JUNIOR FRONT-END DEVELOPER</h3>
+            <h3 className={css.profession}>SOFTWARE DEVELOPER</h3>
           </div>
           <p className={css.description}>
-              I’m a Junior Front-End developer. I focus on HTML5, CSS3, JS, React, Node.js.
-              English - Intermediate. Looking for a remote job. Development,
-              practice and work for the result are important for me. I intend to
-              develop innovative technologies and deliver value to people.
+              Software Developer with nearly 3 years of professional experience in C# development 
+              and business process automation. Skilled in building custom applications and using 
+              Microsoft Power Platform (Power BI, Power Apps, Power Automate) to streamline workflows 
+              and improve efficiency.
           </p>
           </div>
         </div>

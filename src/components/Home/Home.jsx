@@ -23,17 +23,16 @@ export const Home = () => {
     <div className={css.container} id="home">
       <div className={css.header}>
         <p className={css.text}>I'm <span className={css.name}>Anna Mówińska</span></p>
-        <img src={logo} alt="logo" className={css.logo}></img>
-        <p className={css.profession}> <span className={css.level}>Junior</span>Frontend Developer
-        </p>
+        <img src={logo} alt="logo" className={css.logo}/>
+        <p className={css.profession}> Software Developer</p>
       </div>
       <div className={css.footer}>
-        <img src={graphics} alt="knowme" className={css.graphics} ></img>
-        <img src={arrow} alt="arrow" className={css.arrow}></img>
+        <img src={graphics} alt="knowme" className={css.graphics} />
+        <img src={arrow} alt="arrow" className={css.arrow} />
         <div className={css['button-box']}>
         {['projects', 'skills', 'contact'].map((button) => (
           <button className={`${css.button} ${css[button]} ${activeSection === button ? css.link : ""}`}
-      key={`link-${button}`}>
+                  key={`link-${button}`}>
             <div />
             <a href={`#${button}`} className={css.link} onClick={(e) => { e.preventDefault();
             scrollToSection(button);}}>{button}</a>

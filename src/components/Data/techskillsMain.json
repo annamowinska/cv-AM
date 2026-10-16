@@ -1,4 +1,5 @@
 [
+  { "techskillsMain": "C#", "icon": "SiCsharp" },
   { "techskillsMain": "Java Script", "icon": "TbBrandJavascript" },
   { "techskillsMain": "React", "icon": "TbBrandReact" },
   { "techskillsMain": "HTML5", "icon": "TbBrandHtml5" },
